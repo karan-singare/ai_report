@@ -43,7 +43,7 @@ body {
 
 @media print {
   .date_title {
-    padding: 0;
+    /* padding: 0; */
   }
   .container {
     box-decoration-break: clone;
@@ -54,4 +54,5 @@ body {
 } */
 @page {
   padding: 4rem;
+ -webkit-print-color-adjust: exact;
 }
