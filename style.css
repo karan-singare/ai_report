@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Cambria';
+    src: url('cambria/Cambria.ttf');
+}
+body {
+  margin: 0;
+  font-family: Cambria;
+}
+.container {
+  max-width: 1140px;
+  margin: 2rem auto;
+}
+.published_date {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.date_title {
+  padding: 20px;
+  background-color: #444956!important;
+}
+.date_title_partition {
+  height: 30px;
+  background-color: #eed390;
+}
+.title {
+  font-size: 18px;
+  color: #eed390;
+}
+.blog_img {
+  width: 100%;
+}
+.blog_img img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: center;
+}
+.blog_content {
+  font-size: 14px;
+  position: relative;
+}
+
+@media print {
+  .date_title {
+    padding: 0;
+  }
+  .container {
+    box-decoration-break: clone;
+  }
+}
+/* @page {
+  padding-top: 4rem;
+} */
+@page {
+  padding: 4rem;
+}
