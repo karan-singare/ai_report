@@ -1,6 +1,6 @@
 * {
-    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
-    color-adjust: exact !important;                 /*Firefox*/
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
 }
 .container {
   max-width: 1140px;
@@ -31,7 +31,7 @@
   object-fit: cover;
   object-position: center;
 }
-.blog_content::after {
+/* .blog_content::after {
   position: absolute;
   counter-increment: page;
   content: counter(page);
@@ -39,4 +39,4 @@
   top: 100%;
   white-space: nowrap;
   z-index: 20;
-}
+} */
