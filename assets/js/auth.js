@@ -8,7 +8,7 @@ $(document).ready(() => {
   };
   const logout = () => {
     localStorage.clear();
-    location.replace(origin);
+    location.replace('./');
   };
 
   $('#login-form button').click(() => login());
