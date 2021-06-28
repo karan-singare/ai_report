@@ -1,0 +1,97 @@
+.img-circular {
+  border-radius: 50%;
+}
+
+header {
+  position: relative;
+}
+
+header::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  /* background: #37517e; */
+  z-index: -1;
+}
+.check-btn {
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 5rem;
+}
+.check-btn-primary {
+  background-color: #47b2e4;
+  color: #fff;
+}
+
+#hero form label {
+  color: #fff;
+}
+form .form-text {
+  color: #fff;
+  font-size: .8rem;
+  margin-top: .5rem;
+}
+
+#msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(4rem);
+  background-color: rgba(40, 58, 90, 0.9);
+  color: #fff;
+}
+#msg_close {
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+#hero table {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#hero table > thead, tbody {
+  color: #fff;
+}
+
+.btn-activate {
+  border: 2px solid #47b2e4;
+  color: #47b2e4;
+}
+
+#signupModal, #loginModal {
+  background-color: rgba(40, 58, 90, 0.9);
+}
+/** Custom Modal for this project */
+.modal-content {
+  background-color: transparent;
+  border: 2px solid #47b2e4;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-header .close {
+  color: #fff;
+}
+.modal-content .form-group input {
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid #47b2e4;
+  color: #fff;
+}
+.modal-content .form-group input:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #47b2e4;
+}
+.signup-btn {
+  background-color: #47b2e4!important;
+}
+.signup-btn:hover {
+  background-color: transparent!important;
+}
