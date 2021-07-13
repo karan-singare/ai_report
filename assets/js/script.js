@@ -11,7 +11,7 @@ $(document).ready(() => {
 
   console.log();
   $('.footer-links ul li:first-child').click(() => {
-    window.location.replace("/");
+    location.replace("./");
   })
 
 });
