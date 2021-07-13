@@ -95,3 +95,6 @@ form .form-text {
 .signup-btn:hover {
   background-color: transparent!important;
 }
+.footer-links ul li {
+  cursor: pointer;
+}
